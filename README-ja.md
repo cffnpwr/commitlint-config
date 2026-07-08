@@ -4,15 +4,15 @@
 [![npm Version](https://img.shields.io/npm/v/%40cffnpwr%2Fcommitlint-config?style=flat)](https://www.npmjs.com/package/@cffnpwr/commitlint-config)
 [![JSR Version](https://jsr.io/badges/@cffnpwr/commitlint-config)](https://jsr.io/@cffnpwr/commitlint-config)
 
-A shared commitlint configuration for cffnpwr.
+cffnpwrのためのcommitlint共通設定です。
 
-[日本語のREADMEはこちら](./README-ja.md)
+[README.md for English is available here](./README.md).
 
-## What's Included
+## 含まれるもの
 
-- Conventional Commits rules (`type-enum`, `subject-max-length`, etc.).
-- `no-ai-coauthor`: rejects commits whose `Co-authored-by` trailer references an AI agent.
-- `gitmoji-whitelist`: allows a leading gitmoji shortcode in the subject only when it is on the whitelist.
+- Conventional Commitsのルール（`type-enum`・`subject-max-length` など）。
+- `no-ai-coauthor`: `Co-authored-by` トレーラがAIエージェントを参照するコミットを拒否します。
+- `gitmoji-whitelist`: subject先頭のgitmojiショートコードを、ホワイトリストにある場合のみ許可します。
 
 ## How to Install
 
@@ -76,9 +76,9 @@ or
 deno add -D jsr:@cffnpwr/commitlint-config
 ```
 
-## How to Use
+## How to use
 
-Create a commitlint config file and extend this shared configuration.
+commitlintの設定ファイルを作成し、この共通設定を `extends` します。
 
 ```typescript
 import type { UserConfig } from "@commitlint/types";
@@ -90,8 +90,8 @@ const config: UserConfig = {
 export default config;
 ```
 
-The custom `no-ai-coauthor` and `gitmoji-whitelist` rules are bundled as inline
-plugins, so no extra plugin installation is required.
+カスタムルール `no-ai-coauthor` と `gitmoji-whitelist` はインラインプラグインとして
+同梱されているため、追加のプラグインインストールは不要です。
 
 ## License
 
