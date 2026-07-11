@@ -1,6 +1,6 @@
 {
   "name": "@cffnpwr/commitlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Common commitlint configuration for cffnpwr",
   "homepage": "https://github.com/cffnpwr/commitlint-config",
