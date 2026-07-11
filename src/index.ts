@@ -35,6 +35,11 @@ const ALLOWED_TYPES = [
  * ```
  */
 const config: UserConfig = {
+  parserPreset: {
+    parserOpts: {
+      headerPattern: /^(\w*)(?:\((.*)\))?!?: (.*)$/,
+    },
+  },
   rules: {
     "type-enum": [2, "always", [...ALLOWED_TYPES]],
     "type-empty": [2, "never"],
