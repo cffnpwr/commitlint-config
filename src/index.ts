@@ -1,7 +1,7 @@
 import type { UserConfig } from "@commitlint/types";
 
-import { gitmojiWhitelist } from "./plugins/gitmoji-whitelist.js";
-import { noAiCoauthor } from "./plugins/no-ai-coauthor.js";
+import { gitmojiWhitelist } from "./plugins/gitmoji-whitelist.ts";
+import { noAiCoauthor } from "./plugins/no-ai-coauthor.ts";
 
 const ALLOWED_TYPES = [
   "feat",
