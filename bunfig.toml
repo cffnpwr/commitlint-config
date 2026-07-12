@@ -1,5 +1,5 @@
 [install]
 # Only install package versions published at least 3 days ago
 minimumReleaseAge = 259200 # 3 days in seconds
-# @cffnpwr/tsconfig is our own package, so releases are trusted immediately
-minimumReleaseAgeExcludes = ["@cffnpwr/tsconfig"]
+# Our own packages: releases are trusted immediately
+minimumReleaseAgeExcludes = ["@cffnpwr/tsconfig", "@cffnpwr/eslint-config"]
