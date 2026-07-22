@@ -39,7 +39,7 @@
     "globals": "17.7.0",
     "jsr": "0.14.3",
     "pnpm": "10.34.5",
-    "tsdown": "0.22.9",
+    "tsdown": "0.22.11",
     "typescript": "6.0.3"
   },
   "publishConfig": {
