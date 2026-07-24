@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/cffnpwr/commitlint-config/compare/v1.0.1...v1.0.2) (2026-07-24)
+
+
+### Bug Fixes
+
+* **deps:** :bug: bunfigのminimumReleaseAgeExcludesに@cffnpwr/eslint-configを追加 ([#19](https://github.com/cffnpwr/commitlint-config/issues/19)) ([94a5006](https://github.com/cffnpwr/commitlint-config/commit/94a500662ad69f7a6bc11fbc642302861ce5ec5b))
+
 ## [1.0.1](https://github.com/cffnpwr/commitlint-config/compare/v1.0.0...v1.0.1) (2026-07-11)
 
 
