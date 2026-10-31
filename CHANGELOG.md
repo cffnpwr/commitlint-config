@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/cffnpwr/commitlint-config/compare/v1.0.1...v2.0.0) (2026-10-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* :sparkles: commitlintの既定の除外パターンを無効化 ([#154](https://github.com/cffnpwr/commitlint-config/issues/154))
+
+### Features
+
+* :sparkles: commitlintの既定の除外パターンを無効化 ([#154](https://github.com/cffnpwr/commitlint-config/issues/154)) ([816686d](https://github.com/cffnpwr/commitlint-config/commit/816686d38477cfaaedaf732c474132b1b01c85fe))
+
+
+### Bug Fixes
+
+* **deps:** :bug: bunfigのminimumReleaseAgeExcludesに@cffnpwr/eslint-configを追加 ([#19](https://github.com/cffnpwr/commitlint-config/issues/19)) ([94a5006](https://github.com/cffnpwr/commitlint-config/commit/94a500662ad69f7a6bc11fbc642302861ce5ec5b))
+
 ## [1.0.1](https://github.com/cffnpwr/commitlint-config/compare/v1.0.0...v1.0.1) (2026-07-11)
 
 
