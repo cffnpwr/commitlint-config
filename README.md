@@ -13,6 +13,7 @@ A shared commitlint configuration for cffnpwr.
 - Conventional Commits rules (`type-enum`, `subject-max-length`, etc.).
 - `no-ai-coauthor`: rejects commits whose `Co-authored-by` trailer references an AI agent.
 - `gitmoji-whitelist`: allows a leading gitmoji shortcode in the subject only when it is on the whitelist.
+- `defaultIgnores: false`: lints every commit, including merge, revert and `fixup!` commits that commitlint skips by default.
 
 ## How to Install
 

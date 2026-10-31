@@ -13,6 +13,7 @@ cffnpwrのためのcommitlint共通設定です。
 - Conventional Commitsのルール（`type-enum`・`subject-max-length` など）。
 - `no-ai-coauthor`: `Co-authored-by` トレーラがAIエージェントを参照するコミットを拒否します。
 - `gitmoji-whitelist`: subject先頭のgitmojiショートコードを、ホワイトリストにある場合のみ許可します。
+- `defaultIgnores: false`: commitlintが既定で検査対象外にするmerge・revert・`fixup!`等のコミットも検査します。
 
 ## How to Install
 
