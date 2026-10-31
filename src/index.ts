@@ -35,6 +35,11 @@ const ALLOWED_TYPES = [
  * ```
  */
 const config: UserConfig = {
+  /**
+   * Lint every commit, including merge / revert / fixup! commits that
+   * commitlint skips by default.
+   */
+  defaultIgnores: false,
   parserPreset: {
     parserOpts: {
       headerPattern: /^(\w*)(?:\((.*)\))?!?: (.*)$/,
